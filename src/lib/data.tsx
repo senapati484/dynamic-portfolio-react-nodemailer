@@ -103,8 +103,8 @@ export const experiencesData = [
 ] as const;
 
 export const skillsData = [
-  { icon: <Icons.html className="size-12" />, label: 'HTML5', level: 'Expert' },
-  { icon: <Icons.css className="size-12" />, label: 'CSS3', level: 'Expert' },
+  // { icon: <Icons.html className="size-12" />, label: 'HTML5', level: 'Expert' },
+  // { icon: <Icons.css className="size-12" />, label: 'CSS3', level: 'Expert' },
   {
     icon: <Icons.javascript className="size-12" />,
     label: 'JavaScript',
@@ -136,16 +136,6 @@ export const skillsData = [
     level: 'Advanced',
   },
   {
-    icon: <Icons.nestjs className="size-12" />,
-    label: 'NestJS',
-    level: 'Advanced',
-  },
-  {
-    icon: <Icons.prisma className="size-12" />,
-    label: 'Prisma',
-    level: 'Advanced',
-  },
-  {
     icon: <Icons.docker className="size-12" />,
     label: 'Docker',
     level: 'Advanced',
@@ -154,5 +144,15 @@ export const skillsData = [
     icon: <Icons.github className="size-12" />,
     label: 'Git/GitHub',
     level: 'Expert',
+  },
+  {
+    icon: <Icons.mongodb className="size-12" />,
+    label: 'MongoDB',
+    level: 'Advanced',
+  },
+  {
+    icon: <Icons.firebase className="size-12" />,
+    label: 'PostgreSQL',
+    level: 'Advanced',
   },
 ] as const;

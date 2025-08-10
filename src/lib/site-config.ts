@@ -45,8 +45,7 @@ export const siteConfig = {
     'Programming',
     'Tech enthusiast',
   ],
-  url: 'https://sayan4.vercel.app',
-  // googleSiteVerificationId: env.GOOGLE_SITE_VERIFICATION_ID || '',
+  url: 'https://sayan1.vercel.app',
   links: {
     github: 'https://www.github.com/senapati484',
     linkedin: 'https://www.linkedin.com/in/sayan-senapati-430833211/',

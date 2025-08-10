@@ -16,16 +16,14 @@ export const metadata: Metadata = {
     default: siteConfig.title,
     template: `%s | ${siteConfig.title}`,
   },
+  themeColor: '#06c1db',
   description: siteConfig.description,
   keywords: siteConfig.keywords,
   robots: { index: true, follow: true },
   icons: {
-    icon: '/favicon/favicon.ico',
-    shortcut: '/favicon/favicon-16x16.png',
-    apple: '/favicon/apple-touch-icon.png',
-  },
-  verification: {
-    google: siteConfig.googleSiteVerificationId,
+    icon: '/icon/logo-ico.ico',
+    shortcut: '/icon/logo.jpeg',
+    apple: '/icon/logo.jpeg',
   },
 };
 

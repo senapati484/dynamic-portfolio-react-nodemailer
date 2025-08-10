@@ -1,3 +1,5 @@
+import { BiLogoMongodb } from 'react-icons/bi';
+import { IoLogoFirebase } from 'react-icons/io5';
 import {
   ArrowRight,
   Briefcase,
@@ -16,6 +18,8 @@ import {
 } from 'lucide-react';
 
 export const Icons = {
+  mongodb: BiLogoMongodb,
+  firebase: IoLogoFirebase,
   sun: Sun,
   moon: Moon,
   arrowRight: ArrowRight,
