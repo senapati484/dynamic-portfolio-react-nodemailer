@@ -1,6 +1,5 @@
 <div align="center">
-  <img src="public/images/profile/profile.jpg" alt="Sayan Senapati" width="200" style="border-radius: 50%;" />
-
+  
 # Modern Portfolio Website
 
   A modern, responsive portfolio website built with Next.js 14, featuring server actions, email integration, and smooth animations.
@@ -95,7 +94,7 @@ export const projectsData = [
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/senapati484/dynamic-portfolio-react-nodemailer.git
 
 # Navigate to the project
 cd portfolio
@@ -157,5 +156,9 @@ If you have any questions or run into issues, please open an issue in the reposi
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
+
+<div align="center">
+<img src="public/images/profile/profile.jpg" alt="Sayan Senapati" width="200" style="border-radius: 50%;" />
+</div>
 
 Created by [Sayan Senapati](https://sayan4.vercel.app)
