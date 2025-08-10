@@ -1,7 +1,7 @@
 import '@/styles/globals.css';
 
 import { PropsWithChildren } from 'react';
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 
 import { ActiveSectionProvider } from '@/components/active-section-provider';
 import { ThemeProvider } from '@/components/theme-provider';
@@ -10,13 +10,16 @@ import { fonts } from '@/lib/fonts';
 import { siteConfig } from '@/lib/site-config';
 import { cn } from '@/lib/utils';
 
+export const viewport: Viewport = {
+  themeColor: '#06c1db',
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
     default: siteConfig.title,
     template: `%s | ${siteConfig.title}`,
   },
-  themeColor: '#06c1db',
   description: siteConfig.description,
   keywords: siteConfig.keywords,
   robots: { index: true, follow: true },
