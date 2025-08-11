@@ -12,10 +12,22 @@
   [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 </div>
 
+## 📹 Demo
+
+<div align="center">
+  <video src="https://github.com/senapati484/dynamic-portfolio-react-nodemailer/raw/main/public/data/Demo.mp4" controls muted autoplay loop style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: var(--card-bg, #f8f9fa); padding: 10px;">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div align="center">
+  <i>Click to play/pause and unmute to hear audio</i>
+</div>
+
 ## ✨ Features
 
 - 🚀 Built with Next.js 14 and TypeScript
-- � Fully Responsive Design
+- 📱 Fully Responsive Design
 - 🎨 Modern UI with Tailwind CSS and shadcn/ui
 - ✉️ Email Contact Form Integration
 - 🌙 Dark/Light Mode
@@ -155,6 +167,24 @@ If you have any questions or run into issues, please open an issue in the reposi
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 🤝 Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request to the `main` branch
+
+For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
+
+### Development Workflow
+
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+
+All changes should be submitted through the `/username/changes` route, where they will be reviewed before being merged into the main branch.
+
 ## 🙏 Acknowledgments
 
 <div align="center">
@@ -162,3 +192,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 </div>
 
 Created by [Sayan Senapati](https://sayan4.vercel.app)
+
+## 🔰 Good First Issues
+
+Looking to contribute but not sure where to start? Here are some beginner-friendly issues to help you get started:
+
+1. **Improve Accessibility**: Add ARIA labels and improve keyboard navigation throughout the site.
+2. **Add Animation Variants**: Create additional animation options for section transitions.
+3. **Enhance Dark Mode**: Refine the dark mode color palette for better contrast and readability.
+4. **Optimize Images**: Implement next/image for all images and add proper sizing and optimization.
+5. **Add Unit Tests**: Create basic unit tests for components using Jest and React Testing Library.
+6. **Implement i18n Support**: Add internationalization support for multiple languages.
+7. **Create Additional Themes**: Develop alternative color themes beyond just light/dark mode.
+8. **Improve Mobile Navigation**: Enhance the mobile navigation experience with better transitions.
+
+To work on any of these issues, please follow the [contribution guidelines](#-contributing) above.
