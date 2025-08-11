@@ -21,7 +21,7 @@ const HomePage = async () => {
         <Contact />
         <Footer />
       </div>
-      <ThemeToggle className="fixed bottom-8 right-8 flex bg-background" />
+      <ThemeToggle className="fixed bottom-8 right-8 flex bg-background rounded-xl" />
     </>
   );
 };
