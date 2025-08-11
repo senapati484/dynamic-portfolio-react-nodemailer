@@ -41,6 +41,8 @@ export const Intro = () => {
               quality={95}
               priority={true}
               className="rounded-full border-[0.35rem] border-white shadow-xl"
+              placeholder="blur"
+              blurDataURL="data:image/svg+xml;base64,..."
             />
           </div>
         </motion.div>

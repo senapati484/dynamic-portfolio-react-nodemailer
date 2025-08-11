@@ -53,6 +53,8 @@ export const Project = ({ project, index }: TProps) => {
           height={390}
           width={600}
           className="rounded transition-transform hover:scale-105"
+          sizes="(max-width: 768px) 100vw, 50vw"
+          loading="lazy"
         />
       </Link>
       <h3 className="mt-3 text-xl font-medium">{title}</h3>
