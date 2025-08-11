@@ -14,22 +14,7 @@
 
 ## 📹 Demo
 
-<div align="center">
-  <!-- Video with fallback image for GitHub -->
-  <a href="https://raw.githubusercontent.com/senapati484/dynamic-portfolio-react-nodemailer/main/public/data/Demo.mp4" target="_blank">
-    <img src="https://raw.githubusercontent.com/senapati484/dynamic-portfolio-react-nodemailer/main/public/data/demo.png" alt="Portfolio Demo Video" style="max-width: 800px; width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: #1a1a1a; padding: 10px; display: block; margin: 0 auto;">
-  </a>
-  
-  <!-- HTML5 Video (will work in browsers but not on GitHub) -->
-  <video width="100%" height="auto" controls autoplay loop muted playsinline preload="auto" style="max-width: 800px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: #1a1a1a; padding: 10px; display: block; margin: 0 auto;">
-    <source src="public/data/Demo.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-<div align="center">
-  <i>Click to play/pause and unmute to hear audio</i>
-</div>
+https://github.com/user-attachments/assets/1e385ec8-ae6c-41af-b6db-8d97f9d0d5f6
 
 ## ✨ Features
 
