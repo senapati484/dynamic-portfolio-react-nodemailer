@@ -104,7 +104,7 @@ export const projectsData = [
 
 ```bash
 # Clone the repository
-git clone https://github.com/senapati484/dynamic-portfolio-react-nodemailer.git
+git clone https://github.com/senapati484/modern-portfolio.git
 
 # Navigate to the project
 cd portfolio
@@ -172,18 +172,35 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+2. Create your Feature Branch using the naming convention `username/new-feature` (e.g., `johndoe/add-dark-mode`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+4. Push to the Branch (`git push origin username/new-feature`)
 5. Open a Pull Request to the `main` branch
 
 For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
+
+### Branch Naming Convention
+
+When creating a new branch, please follow this naming pattern:
+
+```
+username/new-feature
+```
+
+Where:
+- `username` is your GitHub username
+- `new-feature` is a brief, hyphenated description of the feature or fix
+
+Examples:
+- `sayansenapati/add-animation`
+- `johndoe/fix-mobile-nav`
+- `janedoe/improve-accessibility`
 
 ### Development Workflow
 
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
-All changes should be submitted through the `/username/changes` route, where they will be reviewed before being merged into the main branch.
+All pull requests should follow the branch naming convention described above and will be reviewed before being merged into the main branch.
 
 ## 🙏 Acknowledgments
 
