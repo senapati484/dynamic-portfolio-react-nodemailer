@@ -1,21 +1,28 @@
 <div align="center">
   
 # Modern Portfolio Website
-
   A modern, responsive portfolio website built with Next.js 14, featuring server actions, email integration, and smooth animations.
 
-  [Live Demo](https://sayan1.vercel.app) | [Documentation](#documentation) | [Setup Guide](#setup-guide)
+[Live Demo](https://sayan1.vercel.app) | [Documentation](#documentation) | [Setup Guide](#setup-guide)
 
-  [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
-  [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+
 </div>
 
 ## 📹 Demo
 
 <div align="center">
-  <video src="https://github.com/senapati484/dynamic-portfolio-react-nodemailer/raw/main/public/data/Demo.mp4" controls muted autoplay loop style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: var(--card-bg, #f8f9fa); padding: 10px;">
+  <!-- Video with fallback image for GitHub -->
+  <a href="https://raw.githubusercontent.com/senapati484/dynamic-portfolio-react-nodemailer/main/public/data/Demo.mp4" target="_blank">
+    <img src="https://raw.githubusercontent.com/senapati484/dynamic-portfolio-react-nodemailer/main/public/data/demo.png" alt="Portfolio Demo Video" style="max-width: 800px; width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: #1a1a1a; padding: 10px; display: block; margin: 0 auto;">
+  </a>
+  
+  <!-- HTML5 Video (will work in browsers but not on GitHub) -->
+  <video width="100%" height="auto" controls autoplay loop muted playsinline preload="auto" style="max-width: 800px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background: #1a1a1a; padding: 10px; display: block; margin: 0 auto;">
+    <source src="public/data/Demo.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
@@ -72,8 +79,8 @@ export const siteConfig = {
     github: 'https://github.com/yourusername',
     linkedin: '...',
     // ... other social links
-  }
-}
+  },
+};
 ```
 
 #### 2. data.tsx
@@ -93,11 +100,11 @@ export const projectsData = [
     technologies: ['Tech1', 'Tech2'],
     links: {
       live: 'https://...',
-      github: 'https://...'
-    }
-  }
+      github: 'https://...',
+    },
+  },
   // ... more projects
-]
+];
 ```
 
 ## 🚀 Setup Guide
