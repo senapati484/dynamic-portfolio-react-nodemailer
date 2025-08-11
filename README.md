@@ -3,7 +3,7 @@
 # Modern Portfolio Website
   A modern, responsive portfolio website built with Next.js 14, featuring server actions, email integration, and smooth animations.
 
-[Live Demo](https://sayan1.vercel.app) | [Documentation](#documentation) | [Setup Guide](#setup-guide)
+[Live Demo](https://sayan1.vercel.app) | [Demo Video](#demo) | [Documentation](#documentation) | [Setup Guide](#setup-guide) | [Contributing](#contributing)
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
@@ -11,6 +11,8 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
 </div>
+
+<a id="demo"></a>
 
 ## 📹 Demo
 
@@ -26,6 +28,8 @@ https://github.com/user-attachments/assets/1e385ec8-ae6c-41af-b6db-8d97f9d0d5f6
 - ⚡ Fast Performance
 - 🔍 SEO Optimized
 - 🎭 Smooth Animations with Framer Motion
+
+<a id="documentation"></a>
 
 ## 📚 Documentation
 
@@ -91,6 +95,8 @@ export const projectsData = [
   // ... more projects
 ];
 ```
+
+<a id="setup-guide"></a>
 
 ## 🚀 Setup Guide
 
@@ -158,6 +164,8 @@ If you have any questions or run into issues, please open an issue in the reposi
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<a id="contributing"></a>
 
 ## 🤝 Contributing
 
