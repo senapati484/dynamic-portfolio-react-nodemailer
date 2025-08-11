@@ -104,7 +104,7 @@ export const projectsData = [
 
 ```bash
 # Clone the repository
-git clone https://github.com/senapati484/dynamic-portfolio-react-nodemailer.git
+git clone https://github.com/senapati484/modern-portfolio.git
 
 # Navigate to the project
 cd portfolio
